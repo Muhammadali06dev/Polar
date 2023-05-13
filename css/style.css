@@ -388,10 +388,10 @@ input:focus, select:focus{
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 1.16;
-    color: #000000;
-    opacity: 0.6;
+    color: rgba(0, 0, 0, 0.6);
     text-transform:uppercase;
     padding-bottom: 0.4rem;
+    transition:all .3s ease;
 }
 .selected a{
     opacity:1;
@@ -402,6 +402,10 @@ input:focus, select:focus{
     line-height: 1.16;
     text-transform:uppercase;
     padding-bottom: 0.4rem;
+}
+
+.products__navigation-item a:hover{
+    opacity:1;
 }
 
 .product__container{
